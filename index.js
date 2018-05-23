@@ -1,6 +1,9 @@
 
 
-//add keys from word doc
+const apiKeyWALMART = "";
+const apiKeyETSY = "";
+const apiKeyYOUTUBE = "";
+const apiKeyGIPHY = "";
 
 const ETSYsearch_url = 'https://openapi.etsy.com/v2/listings/active';
 const search_url = 'https://api.walmartlabs.com/v1/search';
