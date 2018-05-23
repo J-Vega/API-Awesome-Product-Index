@@ -1,0 +1,83 @@
+*{
+	box-sizing: border-box;;
+}
+
+.row{
+  max-width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.row::before,
+.row::after {
+  display: table;
+  content: '';
+}
+
+.row::after {
+  clear: both;
+}
+
+@media only screen and (min-width:100px){
+	h4, .quickSearchParent{
+		display: none;
+	}
+	.source-header{
+  		margin-top: 12px;
+	}
+	.col-3{
+		width: 100%;
+	}
+	.col-4{
+		float: left;
+		width: 49%;
+		margin-left: .5%;
+		margin-right: .5%;
+	}
+	#WALMARTpopUpWindow,#ETSYpopUpWindow,#YOUTUBEpopUpWindow{
+  	width: 80%;
+  	left: 10%;
+  	min-height: 40%;
+  	margin: 0 auto;
+	}
+}
+/*col-3 are youtube results, col-4 are etsy and wlamart*/
+
+@media only screen and (min-width:580px){
+	h4{
+		display: block;
+		text-align: center;
+	}
+
+	.quickSearchParent{
+		display: flex;
+	}
+	.source-header{
+  		margin-top: 30px;
+	}
+	.col-1{
+		width: 45%;
+	}
+	.col-3{
+		float: left;
+		width: 32.3%;
+		margin-left: 0.5%;
+		margin-right: 0.5%;
+	}
+	.col-4{
+		float: left;
+		width: 24%;
+		margin-left: .5%;
+		margin-right: .5%;
+
+	}
+	#WALMARTpopUpWindow,#ETSYpopUpWindow,#YOUTUBEpopUpWindow{
+  	width: 80%;
+  	left: 10%;
+  	min-height: 40%;
+  	margin: 0 auto;
+	}
+
+
+}

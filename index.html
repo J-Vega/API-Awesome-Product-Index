@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>repl.it</title>
+    <meta name="API - Awesome Product Index" content="Search for a product to view listings and reviews!">
+    <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="float-grid.css"/>
+  </head>
+  <body id = "page">
+    <nav role= "banner">
+        <div class ="topContainer inlineTop"> 
+         <!--  <img class="icon" src="https://photos-images.active.com/file/3/1/original/44a9dcca-2860-48b8-b9f1-1163f8e4615f.png">
+        <img class="icon" src="https://d30y9cdsu7xlg0.cloudfront.net/png/27269-200.png"> -->
+
+        </div>
+        <h1 class ="title">
+          API - Awesome Product Index
+        </h1>
+        <div class="inlineTop">
+        <!-- <h2>Find listings from Walmart and Etsy, and related videos from Youtube.</h2> -->
+      <form action="#" class="js-search-form">
+        <label for="query"></label>
+        <input type="text" class ="js-query searchBar" placeholder="Search for products"><button type ="submit" class ="searchBar searchButton"></button>
+        
+      </form></div>
+    </nav>
+
+    <main role= "main">
+      <div class></div>
+      
+
+      <!-- <h4 class ="topSearches">Top Searches</h4> -->
+        <ul class = "quickSearchParent">
+          <!-- <input type="button" class="button" value="I Phone " id="quickSearch1"> -->
+          <li class = "quickSearch" id = "quickSearch1">I Phone</li>
+          <li class = "quickSearch" id = "quickSearch2">God of War</li>
+          <li class = "quickSearch" id = "quickSearch3">Galaxy S9</li>
+          <li class = "quickSearch" id = "quickSearch4">Nintendo</li>
+        </ul>
+
+          <!-- Loading Screen -->
+
+        <div class="dialog" id="loadingScreen" aria-live="assertive">
+          <div class="searchResponse" ></div>
+           <div class="dadJoke"></div>
+           
+          <div class="searchGif"></div>
+
+        </div>
+
+      <!-- WALMART POP UP WINDOW -->
+      <div class="dialog" id="WALMARTpopUpWindow" aria-live="assertive">
+    <form>
+      <p class="popUpText"></p>
+      <label id="valueFromMyButton">
+      </label>
+      
+      
+      <div class="copiedimages"></div>
+      <div class="productPrice"></div>
+      <div class="productDescription"></div>
+        <div class="productURL"></div>
+        <input type="button" value="Go Back" id="btnOK">
+      
+    </form>
+  </div>
+
+
+      <!-- ETSY POP UP WINDOW -->
+      <div class="dialog" id="ETSYpopUpWindow" aria-live="assertive">
+        <form>
+          <p class="etsyItemName"></p>
+            <label id="valueFromMyButton"></label>
+              <div class="etsyImage">image</div>
+              <div class="etsyPrice">placeholder</div>
+              <div class="etsyDescription">placeholder</div>
+              <div class="etsyURL">placeholder</div>
+                <input type="button" value="Go Back" id="btnOKKK">
+        </form>
+      </div>
+
+  <!-- YOUTUBE POP UP WINDOW -->
+  <div class="dialog" id="YOUTUBEpopUpWindow" aria-live="assertive">
+    <form>
+      <p class="popUpText"></p>
+      <label id="valueFromMyButton">
+      </label>
+
+      <!-- <div class="youtubeVideoTitle">This is the title of the video</div> -->
+      <div class="youtubeVideoLink italicized">This is the video link</div>
+      <div class="youtubeVideoImage float-left">This is the thumbnail for the youtube video</div>
+      
+      <!-- <div class="youtubeVideoAuthor">This is the author of the video</div> -->
+      <div class="youtubeVideoChannel">This is the channel of the video</div>
+      <div class="youtubeVideoDescription">This is the description for the video</div>
+        
+        <input type="button" value="Go Back" id="btnOKK">
+      
+    </form>
+  </div>
+
+      <h3 class="walmart-blue source-header">WALMART LISTINGS</h3>
+      <div class ="row clickForPopUpWALMART js-search-results-WALMART"></div>
+
+      <h3 class="etsy-orange source-header">ETSY LISTINGS</h3>
+      <div class ="row clickForPopUpETSY js-search-results-ETSY"></div>
+
+      <h3 class="youtube-red source-header">YOUTUBE RESULTS</h3>
+      <div class ="row clickForPopUpYOUTUBE js-search-results-YOUTUBE">
+        
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
