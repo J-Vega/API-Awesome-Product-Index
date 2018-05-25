@@ -8,7 +8,7 @@ const apiKeyGIPHY = "KR173qKpVYfv9dvzExycLE59pItN6ktM";
 const ETSYsearch_url = 'https://openapi.etsy.com/v2/listings/active';
 const search_url = 'https://api.walmartlabs.com/v1/search';
 const youtube_search_url = 'https://www.googleapis.com/youtube/v3/search';
-const giphy_search_url = 'http://api.giphy.com/v1/gifs/search';
+const giphy_search_url = 'https://api.giphy.com/v1/gifs/search';
 
 //Array of each listing
 let listings = [];
