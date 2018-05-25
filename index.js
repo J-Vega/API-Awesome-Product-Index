@@ -1,9 +1,9 @@
 
+const apiKeyWALMART = "cwd2qzamfg6f523deuwhuxec";
+const apiKeyETSY = "oww1hu2f71dd0rs83ba669i5";
+const apiKeyYOUTUBE = "AIzaSyCn1d4mvDhmpTDGTUQewmXwbox46HljqvE";
+const apiKeyGIPHY = "KR173qKpVYfv9dvzExycLE59pItN6ktM";
 
-const apiKeyWALMART = "";
-const apiKeyETSY = "";
-const apiKeyYOUTUBE = "";
-const apiKeyGIPHY = "";
 
 const ETSYsearch_url = 'https://openapi.etsy.com/v2/listings/active';
 const search_url = 'https://api.walmartlabs.com/v1/search';
