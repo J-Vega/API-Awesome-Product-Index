@@ -19,44 +19,131 @@
   clear: both;
 }
 
-@media only screen and (min-width:100px){
-	h4, .quickSearchParent{
+@media only screen and (min-width:260px){
+	li{
+		font-size: 15px;
+	}
+
+	#quickSearch2{
 		display: none;
+	}
+
+	.productName{
+		font-size: 16px;
 	}
 	.source-header{
   		margin-top: 12px;
 	}
+	.thumbnail{
+		width: 35%;
+	}
+	.searchGif img{
+		display: none;
+	}
+	.inlineTop{
+		width: 250px;
+	}
 	.col-3{
 		width: 100%;
+		overflow-x: scroll;
 	}
 	.col-4{
 		float: left;
-		width: 49%;
-		margin-left: .5%;
-		margin-right: .5%;
+		width: 100%;
 	}
 	#WALMARTpopUpWindow,#ETSYpopUpWindow,#YOUTUBEpopUpWindow{
-  	width: 80%;
-  	left: 10%;
-  	min-height: 40%;
-  	margin: 0 auto;
+  		width: 80%;
+  		left: 10%;
+  		min-height: 40%;
+  		margin: 0 auto;
+  		top: 0;
 	}
+	.productDescription p, .etsyDescription p, .youtubeVideoDescription p{
+  		max-height: 128px;
+  		white-space: pre-wrap;
+	}
+	.youtubeVideoImage img{
+		width: 55%
+	}
+	
 }
 /*col-3 are youtube results, col-4 are etsy and wlamart*/
 
-@media only screen and (min-width:580px){
+@media only screen and (min-width:540px){
+	li{
+		font-size: 18px;
+	}
+	.productName{
+		font-size: 14px;
+	}
+	.quickSearchParent{
+		display: flex;
+	}
+	#quickSearch2{
+		display: block;
+	}
+	.source-header{
+  		margin-top: 30px;
+	}
+	.thumbnail{
+		width: 45%;
+	}
+
+	.col-3{
+		float: left;
+		width: 49%;
+		margin-left: 0.5%;
+		margin-right: 0.5%;
+	}
+	.col-4{
+		float: left;
+		width: 31%;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+	#WALMARTpopUpWindow,#ETSYpopUpWindow,#YOUTUBEpopUpWindow{
+  		width: 80%;
+  		left: 10%;
+  		min-height: 40%;
+  		margin: 0 auto;
+  		top: 0;
+	}
+	.productDescription p, .etsyDescription p, .youtubeVideoDescription p{
+  		white-space: normal;
+  		max-height: 42px;
+	}
+	.copiedimages img{
+		width: 24%;
+	}
+
+	.youtubeVideoImage img{
+		width: 35%
+	}
+	.etsyImage img{
+		width: 25%;
+	}
+
+}
+
+@media only screen and (min-width:768px){
+	li{
+		font-size: 20px;
+	}
 	h4{
 		display: block;
 		text-align: center;
 	}
-
+	.searchGif img{
+		display: block;
+		margin: auto;
+	}
 	.quickSearchParent{
 		display: flex;
 	}
 	.source-header{
   		margin-top: 30px;
 	}
-	.col-1{
+	.thumbnail{
 		width: 45%;
 	}
 	.col-3{
@@ -73,11 +160,70 @@
 
 	}
 	#WALMARTpopUpWindow,#ETSYpopUpWindow,#YOUTUBEpopUpWindow{
-  	width: 80%;
-  	left: 10%;
-  	min-height: 40%;
-  	margin: 0 auto;
+  		width: 80%;
+  		left: 10%;
+  		min-height: 40%;
+  		margin: 0 auto;
+  		top: 20px;
 	}
-
-
+	.productDescription p, .etsyDescription p, .youtubeVideoDescription p{
+  		white-space: normal;
+  		max-height: 238px;
+	}
+	.thumbnail{
+		width: 55%;
+	}
+	.etsyImage img{
+		width: 35%;
+	}
 }
+
+@media only screen and (min-width:1024px){
+	li{
+		font-size: 22px;
+	}
+	h4{
+		display: block;
+		text-align: center;
+	}
+	.quickSearchParent{
+		display: flex;
+	}
+	.source-header{
+  		margin-top: 30px;
+	}
+	.thumbnail{
+		width: 45%;
+	}
+	.col-3{
+		float: left;
+		width: 32.3%;
+		margin-left: 0.5%;
+		margin-right: 0.5%;
+	}
+	.col-4{
+		float: left;
+		width: 24%;
+		margin-left: .5%;
+		margin-right: .5%;
+
+	}
+	#WALMARTpopUpWindow,#ETSYpopUpWindow,#YOUTUBEpopUpWindow{
+ 	 	width: 70%;
+ 	 	left: 15%;
+ 	 	min-height: 40%;
+ 	 	margin: 0 auto;
+ 	 	top: 25px;
+	}
+	.productDescription p, .etsyDescription p, .youtubeVideoDescription p{
+  		white-space: normal;
+		  max-height: 238px;
+	}
+	.thumbnail{
+		width: 60%;
+	}
+	.etsyImage img{
+		width: 40%;
+	}
+}
+
