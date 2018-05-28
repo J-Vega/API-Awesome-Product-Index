@@ -8,7 +8,7 @@ const apiKey_ETSY = "oww1hu2f71dd0rs83ba669i5";
 const searchUrl_YOUTUBE = 'https://www.googleapis.com/youtube/v3/search';
 const apiKey_YOUTUBE = "AIzaSyCn1d4mvDhmpTDGTUQewmXwbox46HljqvE";
 
-const searchUrl_GIPHY = 'http://api.giphy.com/v1/gifs/search';
+const searchUrl_GIPHY = 'https://api.giphy.com/v1/gifs/search';
 const apiKey_GIPHY = "KR173qKpVYfv9dvzExycLE59pItN6ktM";
 
 const searchUrl_DADJOKE = 'https://icanhazdadjoke.com/';
