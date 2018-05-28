@@ -5,15 +5,19 @@ html{
   font: small-caps bold 14px/1 sans-serif;
   background-color: #fcfcfc;
 }
+
 input.js-query{
   width: 80%;
 }
+
 input.js-query::placeholder{
   font: small-caps bold 14px/1 sans-serif;
 }
+
 body,h1{
   margin: 0;
 }
+
 nav{
   background: linear-gradient(120deg,#0074c6 0%, #0c748e 25%, #18756a 80%, #146845 95%);
   text-align: center;
@@ -22,12 +26,16 @@ nav{
   top: 0;
   border: 2px solid black;
 }
+
 main{
-  padding-top: 80px;
+  padding-top: 90px;
+  padding-bottom: 20px;
 }
+
 .title{
   color: white;
 }
+
 h2{
   text-align: center;
 }
@@ -39,13 +47,13 @@ form{
 span{
   padding-right: 16px; 
   padding-left: 16px; 
-
 }
 
 h3{
   text-align: center;
 
 }
+
 .inlineTop{
   display: inline-block;
   width: 350px;
@@ -53,7 +61,6 @@ h3{
 }
 
 .icon{
-  
   width: 100px;
   height: 100px;
 }
@@ -63,10 +70,12 @@ h3{
   text-align: center;
   padding: 10px;
 }
+
 .searchBar{
   height: 32px;
   border: 1px solid black;
 }
+
 .searchButton{
   margin-left: -6px;
   background-image: url(https://d30y9cdsu7xlg0.cloudfront.net/png/27269-200.png);
@@ -74,9 +83,10 @@ h3{
   background-position: center;
   background-size: 32px;
   width: 32px;
- position: relative;
-   top: 9px;
+  position: relative;
+  top: 9px;
 }
+
 .copiedimages{
   text-align: center;
 }
@@ -94,35 +104,39 @@ ul{
   justify-content: space-between;
   margin: 0 auto;
 }
+
 .quickSearchParent{
   padding-left: 40px;
   padding-right: 40px;
 }
+
 .topSearches{
 color: gray;
 }
+
 .quickSearch:hover{
   cursor: pointer;
   text-decoration: underline;
 }
 
 #loadingScreen{
-  background: linear-gradient(120deg, 
-    rgb(202, 231, 251) 0%, rgb(147, 197, 210) 25%, 
-    rgb(177, 232, 226) 80%, rgb(177, 232, 209) 95%);
   width: 100%;
   height: 100%;
   text-align: center;
+  top: 93px;
 }
+
 .gif{
      width: 300px;
      height: 260px;
      border: 2px solid black;
 }
+
 .dadJoke p{
   font-size: 26px;
   white-space: normal;
 }
+
 .result-block,.result-block-YOUTUBE,.etsy-result-block{
   text-align: center;
   display: inline-block;
@@ -130,15 +144,11 @@ color: gray;
   margin-right:auto;
   margin-top: 16px;
   background-color: #EAEAEA; 
-  
-  
-  /*max-width: 400px;*/
-  
-  /*The image is an anchor so text align center will work fine on the image*/
   text-align: center;
   text-decoration: none;
   font-style: normal;
 }
+
 .result-block:hover{
   box-shadow: 5px 5px 20px #041e42;
   cursor: pointer;
@@ -159,29 +169,37 @@ color: gray;
   border-radius: 16px; 
   border: 2px solid #041e42;
 }
+
 .walmart-blue{
   color: white;
   font-size: 26px;
   background-color: #041e42;
 }
 
+.justify{
+  text-align: justify;
+}
+
 .productURL a{
-  font-size: 26px;
+  font-size: 20px;
   color: #041e42;
   padding: 4px;
   font-weight: bold;
   border: 2px solid #041e42;
 }
+
 .productURL a:hover{
   color: white;
   background-color: #041e42;
   padding: 4px;
   font-weight: bold;
 }
+
 .etsy-result-block{
   border-radius: 16px; 
   border: 2px solid #f45800;
 }
+
 .etsy-orange{
   color: white;
   font-size: 26px;
@@ -189,29 +207,32 @@ color: gray;
 }
 
 .etsyURL a{
-  font-size: 26px;
+  font-size: 20px;
   color: #f45800;
   padding: 4px;
   font-weight: bold;
   border: 2px solid #f45800;
 }
+
 .etsyURL a:hover{
   color: white;
   background-color: #f45800;
   padding: 4px;
   font-weight: bold;
 }
+
 .result-block-YOUTUBE{
   border-radius: 16px; 
   border: 2px solid red;
 }
+
 .youtube-red{
   color: white;
   font-size: 26px;
   background-color: #FF0000;
 }
-a
-{
+
+a{
   text-decoration: none;
   font-style: normal;
 }
@@ -222,12 +243,14 @@ a
   border: 2px solid black; 
   border-radius: 1px; 
 }
+
 .videoImage{
   margin-top: 10px;
   width: 80%;
   border: 2px solid black; 
   border-radius: 1px; 
 }
+
 .copiedimages img, .etsyImage img, .youtubeVideoImage img{
   border: 2px solid black; 
 }
@@ -250,28 +273,32 @@ a
   border:1px solid #333;
   background:#6479fd;
 }
+
 .button:hover{
   background:#a4a9fd;
 }
-.dialog{
-  
-  
+
+.dialog{  
   background: lightgrey;
   position:fixed;
   display:none;
 }
+
 .dialog label{
   display:inline-block;
   color:#cecece;
 }
+
 #WALMARTpopUpWindow{
   background-color: #f5f5f5;
   border:5px solid #041e42;
 }
+
 #ETSYpopUpWindow{
   background-color: #f5f5f5;
   border:5px solid #f45800;
 }
+
 #YOUTUBEpopUpWindow{
   background-color: #f5f5f5;
   border:5px solid #FF0000;
@@ -281,16 +308,17 @@ input[type=text]{
   display:inline-block;
   margin:5px;
 }
-#btnOK,#btnOKKK,#btnOKK{
+
+.backButton{
   font-size: 20px;
   border:2px solid black;
   background: white;
-  margin:35px;
-  width: 20%;
+  margin:15px;
+  margin-bottom: 6px;
   height: 12%;
 }
 
-#btnOKK:hover,#btnOKKK:hover,#btnOK:hover{
+.backButton:hover{
   border:2px solid #000;
   background:#ff6044;
 }
@@ -298,7 +326,6 @@ input[type=text]{
 #itemNameButton{
   max-width: 70%;
 }
-
 
 p{
   font: small-caps bold 14px/1 sans-serif;
@@ -308,10 +335,13 @@ p{
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+
 .price, .productPrice p{
   color: darkgreen;
   font-size: 16px;
+  margin: 2px;
 }
+
 li{
   font: small-caps bold 18px/1 sans-serif;
 }
