@@ -20,12 +20,13 @@
 }
 
 @media only screen and (min-width:260px){
-	li{
+	.quickSearch{
 		font-size: 15px;
 	}
 
-	#quickSearch2{
-		display: none;
+	#quickSearch2{ 
+		/*Remove second quick search term on small screen*/
+		display: none; 
 	}
 
 	.productName{
@@ -38,6 +39,7 @@
 		width: 35%;
 	}
 	.searchGif img{
+		/*Remove gifs from loading screen on small viewports*/
 		display: none;
 	}
 	.inlineTop{
@@ -67,7 +69,6 @@
 	}
 	
 }
-/*col-3 are youtube results, col-4 are etsy and wlamart*/
 
 @media only screen and (min-width:540px){
 	li{
@@ -225,5 +226,6 @@
 	.etsyImage img{
 		width: 40%;
 	}
-} 
+}
+
 
